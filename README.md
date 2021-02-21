@@ -9,6 +9,11 @@ examples:<br>
 ```بالفراولة ==> فراولة```
 
 
+# Configuration
+read the following articale to check how to configure ```plugin-descriptor.properties``` file 
+[https://www.elastic.co/guide/en/elasticsearch/plugins/current/plugin-authors.html]
+
+
 # Installation
 To install the plugin into elasticsearch <br>
 download the ```elasticsearch-remove_arabic_defention_chracters-1.1.0.zip``` <br>
