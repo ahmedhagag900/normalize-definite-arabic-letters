@@ -9,11 +9,11 @@ examples:<br>
 ```بالفراولة ==> فراولة```
 
 
-#Installation
+# Installation
 To install the plugin into elasticsearch <br>
 download the ```elasticsearch-remove_arabic_defention_chracters-1.1.0.zip``` <br>
 and open the cmd in the elasticsearch bin folder and type <br>
 ```elasticsearch-plugin install file:[filepath]\elasticsearch-remove_arabic_defention_chracters-1.1.0.zip```
 
-#Dependancy
+# Dependancy
 This plugin works on elasticsearch version ```7.10.2```
