@@ -4,6 +4,6 @@ The filter removes the definite arabic letter from arabic text without changing 
 the token
 
 example:
-```الفراولة ==> فراولة```
+```الفراولة ==> فراولة``` <br>
 ```بالفراولة ==> فراولة```
 
