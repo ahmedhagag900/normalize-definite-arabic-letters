@@ -1,6 +1,7 @@
 # normalize-definite-arabic-letters
 This an ElasticSearch plugins that's implement a custom token filter <br>
-The filter removes the definite arabic letter from arabic text ,without changing the root of the token or performing any stemming algorithms on it.
+The filter removes the definite arabic letter from arabic text ,without changing the root of the token 
+or performing any stemming algorithms on it.
 
 examples:<br>
 
