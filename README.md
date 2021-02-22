@@ -21,7 +21,7 @@ and open the cmd in the elasticsearch bin folder and type <br>
 ```elasticsearch-plugin install file:elasticsearch-remove_arabic_defention_chracters-1.1.0.zip```
 
 # Example
-Request body
+Request body:
 ```
 GET /_analyze
 {
@@ -31,7 +31,7 @@ GET /_analyze
 }
 ```
 <br>
-Response
+Response:
 
 ```{
   "tokens" : [
