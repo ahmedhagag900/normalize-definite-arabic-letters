@@ -14,7 +14,7 @@ read the following articale to check how to configure ```plugin-descriptor.prope
 [https://www.elastic.co/guide/en/elasticsearch/plugins/current/plugin-authors.html]
 
 # Download
-Link:
+Link:<br>
 [https://raw.githubusercontent.com/ahmedhagag900/normalize-definite-arabic-letters/main/elasticsearch-remove_arabic_defention_chracters-1.1.0.zip]
 
 # Installation
