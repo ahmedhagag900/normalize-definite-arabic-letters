@@ -65,4 +65,6 @@ Response:
 
 
 # Dependancy
-This plugin works on elasticsearch version ```7.10.2```
+This plugin works on elasticsearch version ```7.10.2``` <br>
+change the elasticsearch version from ```pom.xml``` file under ```<elasticsearch.version>``` tag into your elasticsearch version
+
