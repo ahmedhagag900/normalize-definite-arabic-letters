@@ -22,12 +22,38 @@ and open the cmd in the elasticsearch bin folder and type <br>
 
 # Example
 Request body
-```GET /_analyze
+GET /_analyze
 {
   "tokenizer": "standard",
   "filter": ["Normalize_definite_arabic_letters"],
   "text": ["عصير جهينة بالمانجو"]
-} ```` 
+}
+Response
+{
+  "tokens" : [
+    {
+      "token" : "عصير",
+      "start_offset" : 0,
+      "end_offset" : 4,
+      "type" : "<ALPHANUM>",
+      "position" : 0
+    },
+    {
+      "token" : "جهينة",
+      "start_offset" : 5,
+      "end_offset" : 10,
+      "type" : "<ALPHANUM>",
+      "position" : 1
+    },
+    {
+      "token" : "مانجو",
+      "start_offset" : 11,
+      "end_offset" : 19,
+      "type" : "<ALPHANUM>",
+      "position" : 2
+    }
+  ]
+}
 
 
 
