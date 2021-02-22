@@ -13,6 +13,9 @@ examples:<br>
 read the following articale to check how to configure ```plugin-descriptor.properties``` file 
 [https://www.elastic.co/guide/en/elasticsearch/plugins/current/plugin-authors.html]
 
+# Download
+Link:
+[https://raw.githubusercontent.com/ahmedhagag900/normalize-definite-arabic-letters/main/elasticsearch-remove_arabic_defention_chracters-1.1.0.zip]
 
 # Installation
 To install the plugin into elasticsearch <br>
