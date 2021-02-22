@@ -59,7 +59,6 @@ Response
   ]
 }
 
-```
 
 # Dependancy
 This plugin works on elasticsearch version ```7.10.2```
