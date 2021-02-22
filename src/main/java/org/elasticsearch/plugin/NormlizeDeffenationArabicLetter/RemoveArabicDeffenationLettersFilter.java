@@ -43,7 +43,7 @@ public final class RemoveArabicDeffenationLettersFilter extends TokenFilter  {
     		
     		//iterate through the definite letters of arabic language
     		for(int i=0;i<definite_article.length;++i) {
-    			char[] comp=new char[definite_article[i].length];
+    			char[] comp=new char[Math.min(definite_article[i].length,bufferLength)];
     			
     			//get the prefix of the token
     			for(int j=0;j<definite_article[i].length && j<bufferLength;++j) {
