@@ -32,8 +32,8 @@ GET /_analyze
 ```
 <br>
 Response
-```
-{
+
+```{
   "tokens" : [
     {
       "token" : "عصير",
@@ -57,7 +57,7 @@ Response
       "position" : 2
     }
   ]
-}
+}```
 
 
 # Dependancy
