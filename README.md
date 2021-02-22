@@ -22,13 +22,17 @@ and open the cmd in the elasticsearch bin folder and type <br>
 
 # Example
 Request body
+```
 GET /_analyze
 {
   "tokenizer": "standard",
   "filter": ["Normalize_definite_arabic_letters"],
   "text": ["عصير جهينة بالمانجو"]
 }
+```
+<br>
 Response
+```
 {
   "tokens" : [
     {
@@ -54,8 +58,7 @@ Response
     }
   ]
 }
-
-
+```
 
 # Dependancy
 This plugin works on elasticsearch version ```7.10.2```
