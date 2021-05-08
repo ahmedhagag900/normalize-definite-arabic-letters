@@ -21,7 +21,7 @@ Link:<br>
 To install the plugin into elasticsearch <br>
 download the ```elasticsearch-remove_arabic_defention_chracters-1.1.0.zip``` <br>
 and open the cmd in the elasticsearch bin folder and type <br>
-```elasticsearch-plugin install file:elasticsearch-remove_arabic_defention_chracters-1.1.0.zip```
+```elasticsearch-plugin install file:elasticsearch-remove_arabic_defention_chracters-1.1.0.zip``` <br>
 Check this linke for more details on how to install custom plugins to elasticsearch enginge <br>
 [https://www.elastic.co/guide/en/elasticsearch/plugins/current/plugin-management-custom-url.html]
 
