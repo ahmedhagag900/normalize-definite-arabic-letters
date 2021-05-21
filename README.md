@@ -66,7 +66,8 @@ Response:
 ```
 
 
-# Dependancy
+# Dependencies
 This plugin works on elasticsearch version ```7.10.2``` <br>
+The plugin wirtten with ```java 8``` so you must install it or higher version of java <br>
 change the elasticsearch version from ```pom.xml``` file under ```<elasticsearch.version>``` tag into your elasticsearch version
 
