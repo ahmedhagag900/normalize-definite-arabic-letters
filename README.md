@@ -28,7 +28,7 @@ Check this linke for more details on how to install custom plugins to elasticsea
 # Example
 Request body:
 ```
-GET /_analyze
+POST /_analyze
 {
   "tokenizer": "standard",
   "filter": ["Normalize_definite_arabic_letters"],
